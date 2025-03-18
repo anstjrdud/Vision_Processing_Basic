@@ -11,6 +11,7 @@
 5. calcHist를 통해서 히스토그램을 구하고 히스토그램을 시각화한다.
 
 결과
+
 ![Image](https://github.com/user-attachments/assets/faafaef2-a1af-4d7d-bb82-b85bf88a5138)
 ![Image](https://github.com/user-attachments/assets/3b355dac-e84d-451e-ac87-00d5f737bdcc)
 
@@ -26,7 +27,7 @@
 5. np.hstack를 통해서 이미지를 한 줄로 나열한다.
 6. cv.imshow를 통해 결과를 출력한다.
 
-결과
+결과 (순서대로 원본, 팽창, 침식, 열림, 닫힘)
 ![Image](https://github.com/user-attachments/assets/e06b0d93-5a4c-4110-b8bc-d1b3bb018074)
 
 3번 문제
