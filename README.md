@@ -10,6 +10,10 @@
 4. cv.equalizeHist를 통해서 히스토그램을 평활화하고 이미지를 출력한다.
 5. calcHist를 통해서 히스토그램을 구하고 히스토그램을 시각화한다.
 
+결과
+![Image](https://github.com/user-attachments/assets/faafaef2-a1af-4d7d-bb82-b85bf88a5138)
+![Image](https://github.com/user-attachments/assets/3b355dac-e84d-451e-ac87-00d5f737bdcc)
+
 
 2번 문제
 * John Hancocks 간판 이미지를 이진화된 것으로 모폴로지 연산을 적용하여 적용한 이미지들을 한 줄로 나란히 배치하라.
@@ -22,6 +26,9 @@
 5. np.hstack를 통해서 이미지를 한 줄로 나열한다.
 6. cv.imshow를 통해 결과를 출력한다.
 
+결과
+![Image](https://github.com/user-attachments/assets/e06b0d93-5a4c-4110-b8bc-d1b3bb018074)
+
 3번 문제
 * 나무 이미지를 불러와서 45도 회전하고 회전한 이미지를 1.5배 확대하여 선형 보간을 적용하여 출력하라.
 
@@ -33,3 +40,6 @@
 5. cv.resize를 통해서 INTER_LINEAR를 적용하여 선형 보간을 적용할 수 있도록 한다.
 6. np.hstack로 원본 이미지와 변환 이미지를 나란히 비교할 수 있도록 한다.
 7. cv.imshow를 통해 결과를 출력한다.
+
+결과
+![Image](https://github.com/user-attachments/assets/2fe278c0-7dcc-4ed7-b3f3-bac4fd659254)
