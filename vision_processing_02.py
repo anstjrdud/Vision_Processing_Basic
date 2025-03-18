@@ -22,12 +22,12 @@ c_img = cv.morphologyEx(bin_img, cv.MORPH_CLOSE,kernel)
 
 # 사진 해상도 조절
 
-#X_per = 300/bin_img.shape[1]
-#bin_img = cv.resize(bin_img, dsize=(0,0), fx=X_per, fy=X_per, interpolation=cv.INTER_AREA)
-#d_img = cv.resize(d_img, dsize=(0,0), fx=X_per, fy=X_per, interpolation=cv.INTER_AREA)
-#e_img = cv.resize(e_img, dsize=(0,0), fx=X_per, fy=X_per, interpolation=cv.INTER_AREA)
-#o_img = cv.resize(o_img, dsize=(0,0), fx=X_per, fy=X_per, interpolation=cv.INTER_AREA)
-#c_img = cv.resize(c_img, dsize=(0,0), fx=X_per, fy=X_per, interpolation=cv.INTER_AREA)
+X_per = 700/bin_img.shape[1]
+bin_img = cv.resize(bin_img, dsize=(0,0), fx=X_per, fy=X_per, interpolation=cv.INTER_AREA)
+d_img = cv.resize(d_img, dsize=(0,0), fx=X_per, fy=X_per, interpolation=cv.INTER_AREA)
+e_img = cv.resize(e_img, dsize=(0,0), fx=X_per, fy=X_per, interpolation=cv.INTER_AREA)
+o_img = cv.resize(o_img, dsize=(0,0), fx=X_per, fy=X_per, interpolation=cv.INTER_AREA)
+c_img = cv.resize(c_img, dsize=(0,0), fx=X_per, fy=X_per, interpolation=cv.INTER_AREA)
 
 
 result = np.hstack((bin_img, d_img, e_img, o_img, c_img))
